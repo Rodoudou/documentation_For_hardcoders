@@ -5,35 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://forestry.io/favicons/favicon-32x32.png" />
     <link rel="stylesheet" href="styleReset.css">
     <link rel="stylesheet" href="style.css">
     <title>Documentation</title>
     <div class="app">
-        <header>
-            <nav>
-                <div>
-                    <h1>LOGO</h1>
-                </div>
-                <ul>
-                    <li><a href="/">Chercher</a> </li>
-                    <li><a href="/">Pricing</a> </li>
-                    <li><a href="/">Showcase</a> </li>
-                    <li><a href="/">DOCS</a> </li>
-                    <li><a href="/">Blog</a> </li>
-                    <li><a href="/">Login</a> </li>
-                    <li><a href="/">SignUP</a> </li>
-                </ul>
-            </nav>
-        </header>
+        <nav>
+            <div id="logo"></div>
+            <ul>
+                <li><a href="/">Chercher</a> </li>
+                <li><a href="/">Pricing</a> </li>
+                <li><a href="/">Showcase</a> </li>
+                <li><a href="/">DOCS</a> </li>
+                <li><a href="/">Blog</a> </li>
+                <li><a href="/">Login</a> </li>
+                <li><a href="/">SignUP</a> </li>
+            </ul>
+        </nav>
+
         <aside>
 
             <ul>
-                <li><h2>Docs</h2></li>
+                <li>
+                    <h2>Docs</h2>
+                </li>
                 <br>
                 <br>
                 <li>
-                    <h3>welcome</h3>
+                    <h3>Welcome</h3>
+                <li>
+                    <ul>
+                        <li><a href="/docs/welcome/" class="active">Introduction</a></li>
+                        <ul class="table-of-contents">
+                            <li class="level-2">
+                                <a href="https://forestry.io/docs/welcome/#introduction">Introduction</a>
+                            </li>
+                            <li class="level-2">
+                                <a href="https://forestry.io/docs/welcome/#what-is-forestry">What is Forestry?</a>
+                            </li>
+                            <li class="level-2">
+                                <a href="https://forestry.io/docs/welcome/#advantages">Advantages</a>
+                            </li>
+                        </ul>
+                    </ul>
                 </li>
+                </li>
+
                 <li>
                     <h3>Quick Start</h3>
                     <ul>
@@ -87,23 +104,90 @@
                         <li><a href="">Collaborators & Teams</a></li>
                     </ul>
                 </li>
+                <!-- ########## -->
+                <li>
+                    <h3>Editing</h3>
+                    <ul>
+                        <li><a href="">Managing Content</a></li>
+                        <li><a href="">Markdown Editor</a></li>
+                        <li><a href="">Front Matter</a></li>
+                        <li><a href="">Data Files</a></li>
+                        <li><a href="">Menus</a></li>
+                        <li><a href="">Media Library</a></li>
+                        <li><a href="">Remote Admin</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Media</h3>
+                    <ul>
+                        <li><a href="">Storing Media Files</a></li>
+                        <li><a href="">Git</a></li>
+                        <li><a href="">Cloudinary</a></li>
+                        <li><a href="">S3</a></li>
+                        <li><a href="">Netlify Large Media</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Settings & Configuration</h3>
+                    <ul>
+                        <li><a href="">All Settings</a></li>
+                        <li><a href="">Front Matter Templates</a></li>
+                        <li><a href="">Fields</a></li>
+                        <li><a href="">Sidebar Configuration</a></li>
+                        <li><a href="">Config Files</a></li>
+                        <li><a href="">Snippets</a></li>
+                        <li><a href="">Collaborators & Teams</a></li>
+                    </ul>
+                </li>
+                <!-- ################## -->
                 <li>
                     <h3>Organizations</h3>
+                    <ul>
+                        <li>About Organizations</li>
+                    </ul>
                 </li>
                 <li>
                     <h3>Previews</h3>
+                    <ul>
+                        <li><a href="">About Previews</a></li>
+                        <li><a href="">Instant Previews</a></li>
+                        <li><a href="">Using Instant Previews</a></li>
+                        <li><a href="">Troubleshooting </a></li>
+                    </ul>
                 </li>
                 <li>
                     <h3>Hosting</h3>
+                    <ul>
+                        <li>
+                           <a href="">Deploy and host your site</a> 
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <h3>Developer Guides</h3>
+                    <ul>
+                        <li><a href="/">Hugo</a> </li>
+                        <li><a href="/">Jekyll</a> </li>
+                        <li><a href="/">Gatsby</a> </li>
+                    </ul>
+
                 </li>
                 <li>
                     <h3>Other</h3>
+                    <ul>
+                        <li><a href="/">Troubleshooting</a> </li>
+                        <li><a href="/">Frequently Asked Questions</a> </li>
+                        <li><a href="/">Changelog</a> </li>
+                        <li><a href="/">Import Button</a> </li>
+                    </ul>
                 </li>
                 <li>
                     <h3>Pro</h3>
+                    <ul>
+                        <li><a href="/">Pro Plans</a> </li>
+                        <li><a href="/">Audit Logging</a> </li>
+                        <li><a href="/">Single Sign-on</a> </li>
+                    </ul>
                 </li>
             </ul>
         </aside>
@@ -112,53 +196,68 @@
         </section>
         <footer>
             <div>
-
-                <div>
-                    <ul>
-                        <li>Product</li>
-                        <li>Get started</li>
-                        <li>Princing</li>
-                        <li>Docs</li>
-                        <li>Guides</li>
-                        <li>Support</li>
-                        <li>Status</li>
-                    </ul>
+                <div class="column">
+                    <a href="https://forestry.io" title="Go to homepage">
+                        <img src="https://forestry.io/img/forestry-pos-symbol.svg" width="auto" height="24"
+                            alt="Forestry Logo">
+                    </a>
                 </div>
+                <div class="footer-list">
+                    <div>
+                        <ul>
+                            <li><a href="">Product</a> </li>
+                            <li><a href="">Get started</a></li>
+                            <li><a href="">Princing</a> </li>
+                            <li><a href="">Docs</a> </li>
+                            <li><a href="">Guides</a> </li>
+                            <li><a href="">Support</a> </li>
+                            <li><a href="">Status</a> </li>
+                        </ul>
+                    </div>
 
-                <div>
-                    <ul>
-                        <li>Company</li>
-                        <li>About</li>
-                        <li>Careers</li>
-                        <li>Privacy policy</li>
-                        <li>Terms of use</li>
-                    </ul>
-                </div>
+                    <div>
+                        <ul>
+                            <li><a href="">Company</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Privacy policy</a></li>
+                            <li><a href="">Terms of use</a></li>
+                        </ul>
+                    </div>
 
-                <div>
-                    <ul>
-                        <li>Join our community slack</li>
-                        <li>Logo SLACK</li>
-                    </ul>
+                    <div class="footer-sid-right-logo-slack">
+                        <ul>
+                            <p>Join our community slack</p>
+                            <li>
+                                <a href="https://join.slack.com/t/forestry-community/shared_invite/enQtNDAxMTU5NzcwMzA3LTY1MzM2YTZhN2Q2ZjkyMjk2ZmNhM2Y2ODIwYmU5YWRiNDYwMWRjNzhlOWJiMTg2NDc2ZWNlNjljOTNiNDZiZDk"
+                                    target="_blank">
+                                    <img class="slack-logo" src="	https://forestry.io/img/logos/slack.svg" width="auto"
+                                        height="24" alt="Slack">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
             <div class="lol">
-                <p>2021 by Redouane Amrani</p>
+                <p>© 2015-2021 Forestry.io. All rights reserved.</p>
                 <div>
                     <ul>
-                        <li>twiter</li>
-                        <li>insta</li>
-                        <li>Linkedin</li>
+                        <li><a href="https://twitter.com/forestryio" title="Follow us on Twitter" target="_blank"><img
+                                    src="	https://forestry.io/img/logos/twitter.svg" height="16" alt="Twitter"></a></li>
+                        <li><a href="https://join.slack.com/t/forestry-community/shared_invite/enQtNDAxMTU5NzcwMzA3LTY1MzM2YTZhN2Q2ZjkyMjk2ZmNhM2Y2ODIwYmU5YWRiNDYwMWRjNzhlOWJiMTg2NDc2ZWNlNjljOTNiNDZiZDk"
+                                title="Join our community Slack" target="_blank"><img src="	https://forestry.io/img/logos/slack-symbol.svg"
+                                    height="16" alt="Slack"></a></li>
+                        <li><a href="mailto:support@forestry.io" title="Send us an email"><img src="https://forestry.io/img/email.svg"
+                                    height="12" alt="Email"></a></li>
                     </ul>
                 </div>
             </div>
         </footer>
+        
     </div>
-</head>
+
 <script src="script.js"></script>
-
-<body>
-
-</body>
 
 </html>
