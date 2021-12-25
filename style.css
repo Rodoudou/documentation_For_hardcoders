@@ -31,8 +31,23 @@ nav {
   justify-content: space-between;
   z-index: 20;
 }
+
 nav ul{
-  right: 0px
+  display: flex;
+  position: relative;
+  right: 50px;
+}
+nav li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color .15s ease;
+}
+nav input[type="search"] {
+  margin-right: 33px;
+}
+nav a{
+ padding-right: 29px;
 }
 nav #logo{
   background-image: url(https://forestry.io/img/forestry-pos-full.svg?va47ea7433112d2bca6a25cc52cda6fdb);
@@ -41,7 +56,37 @@ nav #logo{
   width: 120px;
   margin-left: 35px;
 }
-
+nav .search input {
+  padding-left: 2rem;
+}
+nav .search {
+  margin-right: 2rem;
+  position: relative;
+}
+input[type=search] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 1px solid #dedede;
+  border-radius: 1rem;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #343a40;
+  font-size: 12.8px;
+  font-size: 12.8px;
+  font-size: .8rem;
+  height: 16px;
+  height: 16px;
+  height: 1rem;
+  line-height: 16px;
+  line-height: 16px;
+  line-height: 1rem;
+  outline: none;
+  padding: 16px;
+  padding: 1rem;
+  width: 240px;
+}
 
 aside {
   color: #343a40;
@@ -64,7 +109,17 @@ aside a{
 }
 section {
   grid-area: section;
-  background-color: yellow;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 700px;
+    min-height: 100vh;
+    padding: unset;
+    padding-top: 112px;
+    position: relative;
+    width: 100%;
+    word-spacing: 0.05em;
+
 }
 footer {
   grid-area: footer;
@@ -123,11 +178,7 @@ footer .slack-logo {
 
 
 
-nav ul{
-    display: flex;
-    position: relative;
-    right: 50px;
-}
+
 li{   
     padding: 4px;
 }
@@ -190,4 +241,18 @@ h3{
   width: 60px;
   height: 60px;
   z-index: 25;
+}
+
+
+.shortcode-tip{
+    background: #f1f3f5;
+    margin: 1rem 0;
+    padding: 1rem 1rem 1rem 2rem;
+    position: relative;
+    width: 634px;
+}
+.md-content p{
+  color: #3f464d;
+
+  margin: 1rem 0;
 }
