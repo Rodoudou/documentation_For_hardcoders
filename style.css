@@ -320,6 +320,15 @@ font-weight: 500px;
 }
 
 
-
+[data-hlink]:before {
+  content: "";
+  display: block;
+  height: 6rem;
+  margin-top: -6rem;
+  visibility: hidden;
+}
+[data-hlink] a {
+  color: inherit!important;
+}
 
 
